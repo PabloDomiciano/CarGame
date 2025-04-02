@@ -58,7 +58,6 @@ while running:
     for enemy in enemy_cars:
         enemy.draw(screen)
 
-
 for enemy in enemy_cars:
     if player.rect.colliderect(enemy.rect):
         action = game_over_screen(screen, score)
